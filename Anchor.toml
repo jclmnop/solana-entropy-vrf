@@ -1,0 +1,15 @@
+[programs.localnet]
+entropy = "RNGzsvoHhtAfdW7oiAn83pjqVeMDcHtj6XJ24Pq7Z9j"
+
+[programs.devnet]
+entropy = "RNGzsvoHhtAfdW7oiAn83pjqVeMDcHtj6XJ24Pq7Z9j"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Volumes/keys/neondev.json"
+
+[scripts]
+test = "pytest"

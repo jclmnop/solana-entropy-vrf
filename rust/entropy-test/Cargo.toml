@@ -1,0 +1,20 @@
+[package]
+name = "entropy-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.23"
+env_logger = "0.9.0"
+anyhow = "1.0.56"
+log = "0.4.16"
+crossbeam = "0.8.1"
+rayon = "1.5.1"
+rand = "0.8.5"
+hex = "0.4.3"
+
+anchor-client = "0.24.2"
+entropy_vrf_crank = { path = "../entropy_vrf_crank" }
+entropy = { path = "../../programs/entropy", features = ["no-entrypoint"] }
